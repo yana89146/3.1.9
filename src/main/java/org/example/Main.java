@@ -1,22 +1,5 @@
 package org.example;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
-
-class RobotConnectionException extends RuntimeException {
-    public RobotConnectionException(String message) {
-        super(message);
-    }
-
-    public RobotConnectionException(String message, Throwable cause) {
-        super(message, cause);
-    }
-}
-
-
 class Solution {
     public static void moveRobot(RobotConnectionManager connectionManager, int toX, int toY) throws RobotConnectionException {
 
